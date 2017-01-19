@@ -1,4 +1,4 @@
-FROM rusxg/ubuntu-cmake-ffmpeg
+FROM rusxg/ubuntu14-cmake-ffmpeg
 
 RUN \
 	apt-get update && \

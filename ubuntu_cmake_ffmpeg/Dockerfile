@@ -1,4 +1,4 @@
-FROM rusxg/ubuntu-cmake
+FROM rusxg/ubuntu14-cmake
 
 RUN \
 	apt-get update && \
