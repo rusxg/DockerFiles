@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 RUN \
 	apt-get update && \
-	apt-get install wget build-essential -y && \
+	apt-get install wget build-essential libcurl4-openssl-dev libssh-dev libssl-dev -y && \
 	wget https://cmake.org/files/v3.7/cmake-3.7.1.tar.gz && \
 	tar xvf cmake-3.7.1.tar.gz && \
 	cd cmake-3.7.1 && \
